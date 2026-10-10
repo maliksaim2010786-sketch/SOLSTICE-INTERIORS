@@ -1,0 +1,6 @@
+{
+  "name": "Solstice Interiors",
+  "description": "Transform your space into timeless luxury with bespoke residential and commercial interior design, ambient lighting architecture, and curated styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

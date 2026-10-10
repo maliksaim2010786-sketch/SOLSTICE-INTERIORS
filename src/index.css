@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #d4a359;
+    --gold-light: #f3cf8c;
+    --gold-dark: #9e6f28;
+    --bg-dark: #0a0b0d;
+    --card-dark: #121418;
+  }
+}
+
+.font-brand {
+  font-family: 'Cinzel', serif;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-script {
+  font-family: 'Alex Brush', cursive;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Gold Gradients & Styling */
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #dfb268 0%, #c49548 50%, #9e6f28 100%);
+}
+
+.gold-gradient-bg-hover {
+  background: linear-gradient(135deg, #edd18a 0%, #d4a359 50%, #aa772d 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fae2a5 0%, #d8a75e 50%, #b88337 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-glow-subtle {
+  box-shadow: 0 0 25px -4px rgba(212, 163, 89, 0.22);
+}
+
+.gold-glow-strong {
+  box-shadow: 0 0 45px -2px rgba(212, 163, 89, 0.38);
+}
+
+.card-luxury {
+  background: linear-gradient(180deg, rgba(24, 26, 32, 0.85) 0%, rgba(14, 15, 18, 0.95) 100%);
+  border: 1px solid rgba(212, 163, 89, 0.14);
+  backdrop-filter: blur(16px);
+}
+
+.card-luxury:hover {
+  border-color: rgba(212, 163, 89, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7), 0 0 30px -5px rgba(212, 163, 89, 0.2);
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090a0c;
+}
+::-webkit-scrollbar-thumb {
+  background: #282a30;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c49548;
+}
